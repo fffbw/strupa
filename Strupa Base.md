@@ -1,9 +1,9 @@
-Strukturpapier von Fridays for Future in Baden-Württemberg
+# Strukturpapier von Fridays for Future in Baden-Württemberg
 
 Dieses Strukturpapier hat den Zweck, der Fridays for Future-Bewegung in Baden-Württemberg Legitimation zu verschaffen. Es soll die gegenseitige vertrauensvolle und wertschätzende Umgangsform um Transparenz und Basisdemokratie ergänzen. Die Struktur soll einen einfachen Zusammenschluss auf Landesebene ermöglichen und jedem schnellen Zugang zu Informationen gewähren. Damit einher geht das Ziel, möglichst flache Hierarchien aufzubauen. Ebenfalls wichtig ist es, eine Landesebene zu schaffen, die handlungsfähig bleibt und die es jedem ermöglicht, eine Landesarbeitsgruppe zu gründen und jeder Landesarbeitsgruppe erlaubt, effektiv und effizient zu arbeiten.
  
 
-§1. Definitionen:
+## $1. Definitionen:
 
 § 1.1. Aktive Ortsgruppen:
 
@@ -44,7 +44,7 @@ Jede Ortsgruppe definiert die Mitglieder ihres Orga-Teams selbst. Diese sollten 
 
 Wir halten uns an die definition und das Selbstverständnis des Bundesweiten Strukturpapiers unter https://fffutu.re/strupa
 
-§2. Allgemein
+## §2. Allgemein
 
 Falls sich eine Ortsgruppe nicht an das Selbstverständnis hält, kann sie über die Bundesebene ausgeschlossen werden. Daher müssen Ortsgruppen die auf BW-Ebene aktiv sein wollen, auch legitime Ortsgruppen der Bundesebene sein.
 
@@ -52,7 +52,7 @@ Falls sich eine Ortsgruppe nicht an das Selbstverständnis hält, kann sie über
 
 (1)  Eine Wahl ist in diesem Sinne demokratisch, wenn sie allgemein (hinsichtlich aller Stimmberechtigten), frei und gleich ist.
  
-§3. Ortsgruppen (OG)
+## §3. Ortsgruppen (OG)
 
 § 3.1. Die OGs sind selbstständig organisiert und von der Landesebene unabhängig.
 
@@ -62,7 +62,7 @@ Falls sich eine Ortsgruppe nicht an das Selbstverständnis hält, kann sie über
  
 (3)  Es können von außen (Landesebene) ausschließlich Tipps und Handlungsempfehlungen gegeben werden. Die Landesebene hat allerdings keinerlei Weisungsbefugnis oder Autorität über die Ortsgruppen. Es sei denn, es fanden verbindliche Zusagen statt.
  
-§4. Landesebene (LE)
+## §4. Landesebene (LE)
 
 § 4.1. Die Ortsgruppen entsenden Delegierte auf Landesebene.
 
@@ -157,7 +157,7 @@ Diese Informationen müssen im Abstimmungsformular festgeschrieben stehen:
 Ende der Abstimmungsfrist
 Antrag in voller Länge oder Link zu einem (read-only)Dokument mit dem Antragstext.
  
-§ 5. Landesarbeitsgruppen (LG)
+## § 5. Landesarbeitsgruppen (LG)
 § 5.1. Jedes Mitglied einer Ortsgruppe innerhalb von Baden-Württemberg darf eine Arbeitsgruppe auf Landesebene gründen und Mitglied einer Arbeitsgruppe sein. Diese werden LG genannt (Landesarbeitsgruppen).
 (1)  Vor der Legitimierung der Arbeitsgruppe darf die LG keine Aufgaben mit öffentlicher Wirkung (jegliche Wirkung außerhalb der Bewegung) wahrnehmen.
  
