@@ -1,54 +1,61 @@
 Strukturpapier von Fridays for Future in Baden-Württemberg
+
 Dieses Strukturpapier hat den Zweck, der Fridays for Future-Bewegung in Baden-Württemberg Legitimation zu verschaffen. Es soll die gegenseitige vertrauensvolle und wertschätzende Umgangsform um Transparenz und Basisdemokratie ergänzen. Die Struktur soll einen einfachen Zusammenschluss auf Landesebene ermöglichen und jedem schnellen Zugang zu Informationen gewähren. Damit einher geht das Ziel, möglichst flache Hierarchien aufzubauen. Ebenfalls wichtig ist es, eine Landesebene zu schaffen, die handlungsfähig bleibt und die es jedem ermöglicht, eine Landesarbeitsgruppe zu gründen und jeder Landesarbeitsgruppe erlaubt, effektiv und effizient zu arbeiten.
  
-Inhalt:
-§1.Definitionen:
-§2. Allgemein
-§3. Ortsgruppen (OG)
-§4. Landesebene (LE)
-§ 5. Landesarbeitsgruppen (LG)
-
-
-
-
-
-
-
-
-
 
 §1. Definitionen:
+
 § 1.1. Aktive Ortsgruppen:
+
 Eine Ortsgruppe gilt als aktiv, wenn innerhalb einer Woche auf eine Nachricht reagiert wird. Die Aktivität kann auf Nachfrage oder bei Bedarf geprüft werden. Es kann bei einer sinnvollen Begründung eine Ausnahme gemacht werden, wenn die Ortsgruppen aus Baden-Württemberg dies mit einer 2/3 Mehrheit beschließen. 
+
 § 1.2. Einfache Mehrheit:
-Eine einfache Mehrheit besteht aus 50% + 1 Stimme aller abgegebenen Stimmen. Enthaltungen zählen hierbei nicht zu den abgegebenen Stimmen. 
+
+Eine einfache Mehrheit besteht aus 50% + 1 Stimme aller abgegebenen Stimmen. Enthaltungen zählen hierbei nicht zu den abgegebenen Stimmen.
+
 § 1.3. Quorum:
+
 Als Quorum ist eine Mindestanzahl an abgegebenen Stimmen anzusehen. 
+
 Allgemein gilt:
+
 - Die Grenze ist in % anzugeben.
- - Die Gesamtzahl aller aktiven Stimmberechtigten (Ortsgruppen) ist als 100% anzusehen.
+
+- Die Gesamtzahl aller aktiven Stimmberechtigten (Ortsgruppen) ist als 100% anzusehen.
+
 § 1.4. einfache 2/3 Mehrheit:
+
 Damit ist eine 2/3 Mehrheit aller abgegebenen Stimmen gemeint. Enthaltungen zählen hierbei nicht zu den abgegebenen Stimmen.
+
 § 1.5. Veto im Allgemeinen:
+
 Ein Veto muss immer begründet sein. Diese Begründung muss konstruktiv und somit konfliktlösend sein und schon bei der Einlegung bekannt gemacht werden. 
 Ein Veto heißt: "Ich kann diese Entscheidung nicht mittragen und lege formalen Protest ein"
+
 § 1.6. Aufschiebendes Veto:
+
 Ist eine Art des Vetos, es bedeutet: „Wir müssen nochmal über die Entscheidung diskutieren”. (Details siehe 4.5.)
 
 § 1.8. Orga-Team:
+
 Jede Ortsgruppe definiert die Mitglieder ihres Orga-Teams selbst. Diese sollten vertrauenswürdig sein und keine vertraulichen Informationen veröffentlichen.
+
 § 1.9. Ortsgruppe (OG)
+
 Wir halten uns an die definition und das Selbstverständnis des Bundesweiten Strukturpapiers unter https://fffutu.re/strupa
 
 §2. Allgemein
+
 Falls sich eine Ortsgruppe nicht an das Selbstverständnis hält, kann sie über die Bundesebene ausgeschlossen werden. Daher müssen Ortsgruppen die auf BW-Ebene aktiv sein wollen, auch legitime Ortsgruppen der Bundesebene sein.
 
-
 § 2.2. Alle Wahlen und Abstimmung müssen demokratisch und transparent sein. 
+
 (1)  Eine Wahl ist in diesem Sinne demokratisch, wenn sie allgemein (hinsichtlich aller Stimmberechtigten), frei und gleich ist.
  
 §3. Ortsgruppen (OG)
+
 § 3.1. Die OGs sind selbstständig organisiert und von der Landesebene unabhängig.
+
 (1)  Die Landesebene ist abhängig von den Abstimmungen der OGs und kann von diesen ermächtigt und befugt werden, in ihrem Namen zu handeln.
  
 (2)  Die OGs handeln eigenverantwortlich und sind demokratisch.
@@ -56,9 +63,12 @@ Falls sich eine Ortsgruppe nicht an das Selbstverständnis hält, kann sie über
 (3)  Es können von außen (Landesebene) ausschließlich Tipps und Handlungsempfehlungen gegeben werden. Die Landesebene hat allerdings keinerlei Weisungsbefugnis oder Autorität über die Ortsgruppen. Es sei denn, es fanden verbindliche Zusagen statt.
  
 §4. Landesebene (LE)
+
 § 4.1. Die Ortsgruppen entsenden Delegierte auf Landesebene.
+
 (1)  Jede Ortsgruppe kann bis zu 2 Vertreter*innen als Delegierte in eine landesweite Gruppe entsenden, welche zur Kommunikation von Informationen zu den Ortsgruppen dient. Diese Vertreter*innen müssen in allen Abstimmungen die Meinung ihrer Ortsgruppe wiedergeben. 
- (2) Es gibt eine Admingruppe, in diese werden bis zu 8 Menschen (die Hälfte davon quotiert) zur Administration durch die Delegierten der OGs gewählt.
+
+(2) Es gibt eine Admingruppe, in diese werden bis zu 8 Menschen (die Hälfte davon quotiert) zur Administration durch die Delegierten der OGs gewählt.
  
 (3)  Das Aktualisieren und die Instandhaltung der OG Liste, bestehend aus OG-Email und ihren Delegierten, übernimmt eine speziell dafür legitimierte LG. Bis dahin sind die Ortsgruppendelegierten selbst für die Aktualität der Liste zuständig.
  
@@ -69,11 +79,13 @@ Falls sich eine Ortsgruppe nicht an das Selbstverständnis hält, kann sie über
 (6)  Ein ausgeglichenes Verhältnis der Geschlechter ist erwünscht.
  
 § 4.2. Die WhatsApp-Gruppe "FFF-Baden-Württemberg LG" bleibt erhalten. 
+
 (1)  Sie steht weiterhin jedem Orga-Team Mitglied aus einer Ortsgruppe aus Baden-Württemberg und jedem Mitglied einer Landesarbeitsgruppe von Baden-Württemberg offen. 
  
 (2)  In dieser Gruppe finden sich dieselben Informationen wie in der "BW-Deli-Info Gruppe", mit Ausnahme der Möglichkeit zur Abstimmung.
  
 § 4.3. Abstimmungen auf Landesebene:
+
 (1)  Jede Ortsgruppe und Landesgruppe darf eine Abstimmung initiieren.
  
 (2)  Jeder Abstimmung müssen mindestens 10 Tage Zeit eingeräumt werden, es sei denn eine Ortsgruppe oder Landesarbeitsgruppe beantragt eine dringende Abstimmung. Die Frist beginnt sofort mit der Veröffentlichung des Antrags in Deli-Gruppen. Besteht Klärungsbedarf, kann innerhalb der Abstimmungsfrist eine Telefonkonferenz einberufen werden.
@@ -84,7 +96,8 @@ Falls sich eine Ortsgruppe nicht an das Selbstverständnis hält, kann sie über
 b) Bei jeder dringenden Abstimmung gibt es die Option „nicht dringend”, wird dieser Punkt mit einer einfachen Mehrheit angenommen, wird ein reguläres Verfahren durchgeführt. Diese Option kann zusätzlich zur normalen Stimme ausgewählt werden.
  
 (5)  Jede Ortsgruppe hat eine gemeinsame Stimme.
-a) Hat eine Ortsgruppe (versehentlich) mehrere Stimmen abgegeben, so wird die zuletzt abgegebene Stimme gewertet.
+
+Hat eine Ortsgruppe (versehentlich) mehrere Stimmen abgegeben, so wird die zuletzt abgegebene Stimme gewertet.
  
 (6)  Alle Informationen und Möglichkeiten zu Abstimmungen werden immer in die [BW-Deli-INFO Gruppe] gestellt. 
  
@@ -106,6 +119,7 @@ Bei einem Verstoß gegen die Abstimmungsrichtlinien kann gegen den Antrag ein be
 (5)  Bei Änderungen der Struktur ist eine einfache 2/3 Mehrheit erforderlich.
  
 § 4.5. Aufschiebendes Vetorecht
+
 (1)  Ein Veto kann von jeder OG eingelegt werden, es ist als Ultima Ratio anzusehen.
  
 a) Das Veto muss innerhalb der Rückmeldefrist für reguläre Abstimmungen zusammen mit einem konstruktiven Feedback, im Abstimmungsformular eingereicht werden.
