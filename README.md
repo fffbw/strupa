@@ -1,0 +1,2 @@
+# strupa
+BW Strukturpapier
