@@ -4,10 +4,7 @@ Dieses Strukturpapier hat den Zweck, der Fridays for Future-Bewegung in Baden-W�
  
 
 ## $1. Definitionen:
-
-§ 1.1. Aktive Ortsgruppen:
-
-Eine Ortsgruppe gilt als aktiv, wenn innerhalb einer Woche auf eine Nachricht reagiert wird. Die Aktivität kann auf Nachfrage oder bei Bedarf geprüft werden. Es kann bei einer sinnvollen Begründung eine Ausnahme gemacht werden, wenn die Ortsgruppen aus Baden-Württemberg dies mit einer 2/3 Mehrheit beschließen. 
+ 
 
 § 1.2. Einfache Mehrheit:
 
@@ -70,7 +67,7 @@ Falls sich eine Ortsgruppe nicht an das Selbstverständnis hält, kann sie über
 
 (2) Es gibt eine Admingruppe, in diese werden bis zu 8 Menschen (die Hälfte davon quotiert) zur Administration durch die Delegierten der OGs gewählt.
  
-(3)  Das Aktualisieren und die Instandhaltung der OG Liste, bestehend aus OG-Email und ihren Delegierten, übernimmt eine speziell dafür legitimierte LG. Bis dahin sind die Ortsgruppendelegierten selbst für die Aktualität der Liste zuständig.
+(3)  Das Aktualisieren und die Instandhaltung der OG Liste, Ortsgruppe, ihren Delegierten sowie Kontaktdaten, übernimmt eine speziell dafür legitimierte LG. Bis dahin sind die Ortsgruppendelegierten selbst für die Aktualität der Liste zuständig.
  
 (4)  Die Wahl der Vertreter*innen der Ortsgruppen muss demokratisch (vgl. 2.2.1) sein. Das heißt alle Orga-Team Mitglieder müssen theoretisch die Möglichkeit zur Wahl haben. Delegierte müssen die Wahl durch ihre Ortsgruppe bestätigen können, etwa durch ein Protokoll oder eine Nachricht der jeweiligen Ortsgruppe. Ab dem Zeitpunkt, ab dem eine Ortsgruppe die Landesebene über die Abwahl einer Person informiert, ist diese nicht mehr delegiert, und wird aus der Deligruppe entfernt.
  
