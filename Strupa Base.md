@@ -14,11 +14,7 @@ Eine einfache Mehrheit besteht aus 50% + 1 Stimme aller abgegebenen Stimmen. Ent
 
 Als Quorum ist eine Mindestanzahl an abgegebenen Stimmen anzusehen. 
 
-Allgemein gilt:
-
-- Die Grenze ist in % anzugeben.
-
-- Die Gesamtzahl aller aktiven Stimmberechtigten (Ortsgruppen) ist als 100% anzusehen.
+- Der Durchschnitt der Teilnemenden Ogs der letzten 5 Abstimmungen wird als 100 % angesehen, das Quorum wird als Anteil davon beschrieben.
 
 § 1.4. einfache 2/3 Mehrheit:
 
@@ -61,7 +57,7 @@ Falls sich eine Ortsgruppe nicht an das Selbstverständnis hält, kann sie über
  
 ## §4. Landesebene (LE)
 
-§ 4.1. Die Ortsgruppen entsenden Delegierte auf Landesebene.
+###§ 4.1. Die Ortsgruppen entsenden Delegierte auf Landesebene.
 
 (1)  Jede Ortsgruppe kann bis zu 2 Vertreter*innen als Delegierte in eine landesweite Gruppe entsenden, welche zur Kommunikation von Informationen zu den Ortsgruppen dient. Diese Vertreter*innen müssen in allen Abstimmungen die Meinung ihrer Ortsgruppe wiedergeben. 
 
@@ -75,13 +71,13 @@ Falls sich eine Ortsgruppe nicht an das Selbstverständnis hält, kann sie über
  
 (6)  Ein ausgeglichenes Verhältnis der Geschlechter ist erwünscht.
  
-§ 4.2. Die WhatsApp-Gruppe "FFF-Baden-Württemberg LG" bleibt erhalten. 
+###§ 4.2. Die WhatsApp-Gruppe "FFF-Baden-Württemberg LG" bleibt erhalten. 
 
 (1)  Sie steht weiterhin jedem Orga-Team Mitglied aus einer Ortsgruppe aus Baden-Württemberg und jedem Mitglied einer Landesarbeitsgruppe von Baden-Württemberg offen. 
  
 (2)  In dieser Gruppe finden sich dieselben Informationen wie in der "BW-Deli-Info Gruppe", mit Ausnahme der Möglichkeit zur Abstimmung.
  
-§ 4.3. Abstimmungen auf Landesebene:
+###§ 4.3. Abstimmungen auf Landesebene:
 
 (1)  Jede Ortsgruppe und Landesgruppe darf eine Abstimmung initiieren.
  
@@ -89,7 +85,7 @@ Falls sich eine Ortsgruppe nicht an das Selbstverständnis hält, kann sie über
  
 (3)  Eine dringende Abstimmung ist nur anzuwenden, wenn durch einen regulären Abstimmungsprozess der FridaysforFuture Bewegung Schaden zugefügt wird oder das Thema der Abstimmung wichtig ist und eine kurzfristige Abstimmung erforderlich macht.
  
-(4)  a) Der Zeitrahmen (für eine dringende Abstimmung) von 3 Tagen darf nur unterschritten werden, wenn in einer Begründung dargelegt wird, weshalb dies absolut notwendig ist. Bei Unterschreitung der 3-Tages-Frist benötigen Abstimmungen eine 2/3 Mehrheit. Das Quorum von 30% muss erfüllt sein, damit eine Eilabstimmung unter 3 Tagen gültig wird.
+(4)  a) Der Zeitrahmen (für eine dringende Abstimmung) von 3 Tagen darf nur unterschritten werden, wenn in einer Begründung dargelegt wird, weshalb dies absolut notwendig ist. Bei Unterschreitung der 3-Tages-Frist benötigen Abstimmungen eine 2/3 Mehrheit. Das Quorum von mehr als 2/3 muss erfüllt sein, damit eine Eilabstimmung unter 3 Tagen gültig wird.
 b) Bei jeder dringenden Abstimmung gibt es die Option „nicht dringend”, wird dieser Punkt mit einer einfachen Mehrheit angenommen, wird ein reguläres Verfahren durchgeführt. Diese Option kann zusätzlich zur normalen Stimme ausgewählt werden.
  
 (5)  Jede Ortsgruppe hat eine gemeinsame Stimme.
@@ -102,7 +98,7 @@ Hat eine Ortsgruppe (versehentlich) mehrere Stimmen abgegeben, so wird die zulet
  
 
  
-§ 4.4. Abstimmungsverfahren
+###§ 4.4. Abstimmungsverfahren
 (1) Abstimmungsformulare werden von der Admingruppe erstellt und durchgeführt.  
 a) Formfehler:
 Bei einem Verstoß gegen die Abstimmungsrichtlinien kann gegen den Antrag ein begründeter Einspruch innerhalb der Abstimmungsfrist eingelegt werden. Falls es zu keiner direkten einigung Kommt kann eine ABstimmung über die gültigkeit der Abstimmung erzwungen werden.
@@ -111,7 +107,7 @@ Bei einem Verstoß gegen die Abstimmungsrichtlinien kann gegen den Antrag ein be
  
 (3)  Eine Liste mit den Stimmen aller OGs ist nach der Abstimmung durch den Antragstellenden in ein Dokument zu stellen und der Link dazu ist in die WhatsApp-Gruppen "Baden-Württemberg LG" und "BW Deli Info Gruppe" zu senden. 
  
-(4)  Für den positiven Ausgang einer Abstimmung ist eine einfache Mehrheit erforderlich. (>50%). Es müssen mindestens 25 Prozent der stimmberechtigten aktiven Ortsgruppen bei der Abstimmung teilnehmen, damit ein Abstimmungsergebnis sofortige Gültigkeit beanspruchen kann. Wenn das Quorum verfehlt wird, können die Ortsgruppen ein Veto gegen das am Quorum gescheiterte Abstimmungsergebnis innerhalb von 10 Tagen einlegen, ansonsten ist das Abstimmungsergebnis gültig. 
+(4)  Für den positiven Ausgang einer Abstimmung ist eine einfache Mehrheit erforderlich. (>50%).
  
 (5)  Bei Änderungen der Struktur ist eine einfache 2/3 Mehrheit erforderlich.
  
@@ -139,7 +135,7 @@ i) Für die Abstimmungen nach 4.5.2 f) und 4.5.2 g) sind 72 Stunden anzusetzen.
  
 (2)  Bei negativem Ausgang der Abstimmung, unabhängig möglicher Vetos, wird der Entwurf verworfen.
 
-§ 4.6. Abstimmungsformulare (Abstimmungsrichtlinien)
+### § 4.6. Abstimmungsformulare (Abstimmungsrichtlinien)
 - Antworten dürfen nicht durch dritte veränderbar sein.
 Diese Informationen müssen abgefragt werden: 
 Name
@@ -171,12 +167,12 @@ b) Bei dreimaligem hintereinander unentschuldigtem Nichtabgeben des Berichts wir
  
 (2)  Zur Legitimierung der LG ist über diese beiden Dokumente regulär abzustimmen. Zur Legitimierung bedarf es einer einfachen Mehrheit.
 
-            § 5.3. Der LG darf jedes Mitglied einer Orga-Gruppe beitreten. 
+§ 5.3. Der LG darf jedes Mitglied einer Orga-Gruppe beitreten. 
 (1)  Jede Ortsgruppe kann Personen, die nicht Mitglied in einer Orga-Gruppe sind, zu den LGs Zugang verschaffen. Damit bestätigt sie, dass diese Person vertrauenswürdig ist.
  
 (2)  Jede LG stellt im "Bw-Pad" eine Beitrittsmöglichkeit bereit.
  
-§ 6 Antidiskriminierung und Awareness
+##§ 6 Antidiskriminierung und Awareness
 § 6.1 In der Zusammenarbeit wird auf gegenseitige Rücksichtnahme und einen wertschätzenden konstruktiven Umgang geachtet.
 § 6.2 Die Delegierten wählen mindestens 2 Awarenessbeauftragte. Es ist nicht gestattet, dass mehr als die Hälfte der Awarenessbeauftragten desselben Geschlechts sind.
 (1)  Die Awarenessbeauftragten benötigen eine 2/3 Mehrheit um gewählt zu werden, und können mit 1/3 + 1 Stimme abgewählt werden.
