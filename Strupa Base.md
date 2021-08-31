@@ -57,7 +57,7 @@ Falls sich eine Ortsgruppe nicht an das Selbstverständnis hält, kann sie über
  
 ## §4. Landesebene (LE)
 
-###§ 4.1. Die Ortsgruppen entsenden Delegierte auf Landesebene.
+### § 4.1. Die Ortsgruppen entsenden Delegierte auf Landesebene.
 
 (1)  Jede Ortsgruppe kann bis zu 2 Vertreter*innen als Delegierte in eine landesweite Gruppe entsenden, welche zur Kommunikation von Informationen zu den Ortsgruppen dient. Diese Vertreter*innen müssen in allen Abstimmungen die Meinung ihrer Ortsgruppe wiedergeben. 
 
@@ -71,13 +71,13 @@ Falls sich eine Ortsgruppe nicht an das Selbstverständnis hält, kann sie über
  
 (6)  Ein ausgeglichenes Verhältnis der Geschlechter ist erwünscht.
  
-###§ 4.2. Die WhatsApp-Gruppe "FFF-Baden-Württemberg LG" bleibt erhalten. 
+### § 4.2. Die WhatsApp-Gruppe "FFF-Baden-Württemberg LG" bleibt erhalten. 
 
 (1)  Sie steht weiterhin jedem Orga-Team Mitglied aus einer Ortsgruppe aus Baden-Württemberg und jedem Mitglied einer Landesarbeitsgruppe von Baden-Württemberg offen. 
  
 (2)  In dieser Gruppe finden sich dieselben Informationen wie in der "BW-Deli-Info Gruppe", mit Ausnahme der Möglichkeit zur Abstimmung.
  
-###§ 4.3. Abstimmungen auf Landesebene:
+### § 4.3. Abstimmungen auf Landesebene:
 
 (1)  Jede Ortsgruppe und Landesgruppe darf eine Abstimmung initiieren.
  
@@ -98,7 +98,7 @@ Hat eine Ortsgruppe (versehentlich) mehrere Stimmen abgegeben, so wird die zulet
  
 
  
-###§ 4.4. Abstimmungsverfahren
+### § 4.4. Abstimmungsverfahren
 (1) Abstimmungsformulare werden von der Admingruppe erstellt und durchgeführt.  
 a) Formfehler:
 Bei einem Verstoß gegen die Abstimmungsrichtlinien kann gegen den Antrag ein begründeter Einspruch innerhalb der Abstimmungsfrist eingelegt werden. Falls es zu keiner direkten einigung Kommt kann eine ABstimmung über die gültigkeit der Abstimmung erzwungen werden.
@@ -172,7 +172,7 @@ b) Bei dreimaligem hintereinander unentschuldigtem Nichtabgeben des Berichts wir
  
 (2)  Jede LG stellt im "Bw-Pad" eine Beitrittsmöglichkeit bereit.
  
-##§ 6 Antidiskriminierung und Awareness
+## § 6 Antidiskriminierung und Awareness
 § 6.1 In der Zusammenarbeit wird auf gegenseitige Rücksichtnahme und einen wertschätzenden konstruktiven Umgang geachtet.
 § 6.2 Die Delegierten wählen mindestens 2 Awarenessbeauftragte. Es ist nicht gestattet, dass mehr als die Hälfte der Awarenessbeauftragten desselben Geschlechts sind.
 (1)  Die Awarenessbeauftragten benötigen eine 2/3 Mehrheit um gewählt zu werden, und können mit 1/3 + 1 Stimme abgewählt werden.
