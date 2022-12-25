@@ -1,0 +1,493 @@
+% Template for Fridays For Future Designed Documets
+% Template Jonas Klein, 2022
+\documentclass[a4paper,
+  ]{scrartcl}
+\usepackage[
+  top=0pt,
+  bottom=1.5cm,
+  left=1.5cm,
+  right=1.5cm,
+  headheight=1.5cm,
+  footskip=35pt,
+  headsep=20pt,
+  includeheadfoot
+]{geometry}
+\usepackage[ngerman]{babel} 
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\setlength{\parindent}{0pt}
+% xelatex or lualatex needed for fontspec
+% maybe the font file have to be installed
+\usepackage{fontspec}
+\setmainfont[Ligatures=TeX]{Jost-Regular}
+
+
+% COLORED SECTIONS
+\usepackage{xcolor}
+\usepackage{lipsum}
+\definecolor{fffgreen}{HTML}{1DA64A}
+\definecolor{fffdgreen}{HTML}{1B7340}
+\definecolor{ffflgreen}{HTML}{DAEFD3}
+
+\addtokomafont{section}{\mysection}
+\newcommand{\mysection}[1]{%
+    \setlength{\fboxsep}{0cm}%already boxed
+    
+    \colorbox{fffdgreen!100}{%
+        \begin{minipage}{\linewidth}%
+            \vspace*{5pt}%Space before
+            \color{white}
+            \MakeUppercase{#1}
+            \vspace*{5pt}%Space after
+        \end{minipage}%
+}}
+% subsection
+
+\addtokomafont{subsection}{\mysectionb}
+\newcommand{\mysectionb}[1]{%
+    \setlength{\fboxsep}{0cm}%already boxed
+    
+    \colorbox{fffgreen!100}{%
+        \begin{minipage}{\linewidth}%
+            \vspace*{5pt}%Space before
+            \color{white}
+            \MakeUppercase{#1}
+            \vspace*{5pt}%Space after
+        \end{minipage}%
+}}
+
+% subsubsection
+
+\addtokomafont{subsubsection}{\mysectionc}
+\newcommand{\mysectionc}[1]{%
+    \setlength{\fboxsep}{0cm}%already boxed
+    
+    \colorbox{ffflgreen!100}{%
+        \begin{minipage}{\linewidth}%
+            \vspace*{2pt}%Space before
+            \MakeUppercase{#1}
+            \vspace*{2pt}%Space after
+        \end{minipage}%
+}}
+
+% make links green
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=fffgreen,
+    filecolor=fffgreen,      
+    urlcolor=fffgreen
+}
+
+% header and footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{overpic}
+\newcommand{\custompagemark}{
+  \begin{overpic}[scale=1,,tics=10]
+    {pagecount.png}
+    \put(10,50){\color{white}{\thepage}}
+  \end{overpic}
+}
+\fancyhead{} % clear all header fields
+\fancyfoot{} % clear all footer fields
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{\custompagemark}
+\fancyheadoffset[L]{\dimexpr\oddsidemargin+1in\relax}
+
+% for Information symbols
+\usepackage{wrapfig}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\renewcommand\tabularxcolumn[1]{m{#1}}% for vertical centering text in X column
+
+
+% parallel text
+\newcommand{\paralleltext}[2]{\\
+\begin{tabularx}{\textwidth}{X X}
+  
+#1 & #2 \\
+\end{tabularx}
+}
+
+\usepackage{tocloft}
+\makeatletter
+\renewcommand{\@cftmaketoctitle}{}
+\makeatother
+
+% for organigram
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Properties %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Comment out for no version numbers
+\newcommand{\docversion}{StruPa\_BW\_v3.0 (\today)}
+\fancyfoot[L]{{\color{fffgreen}\docversion}}
+
+\begin{document}
+% place logo big in the middle
+%\begin{center}
+%  \includegraphics[width=0.5\textwidth]{Logo.png}
+%\end{center}
+
+
+% logo in the left Floating parallell to text
+% for compact layout without table of contents
+\begin{tabularx}{\textwidth}{X m{5cm}}
+      \centering \Huge \color{fffgreen} \MakeUppercase{Strukturpapier \\ von \\Fridays for Future\\Baden-Württemberg} & \includegraphics[width=5cm]{Logo.png}
+\end{tabularx}
+
+
+
+% Comment out if no table of contents needed or if you set it later manually
+% \tableofcontents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CONTENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Grundsatz - StruPa}
+Dieses Strukturpapier hat den Zweck, der Fridays for Future-Bewegung in Baden-Württemberg
+Legitimation zu verschaffen. Es soll die gegenseitige vertrauensvolle und wertschätzende Umgangsform
+um Transparenz und Basisdemokratie ergänzen. Die Struktur soll einen einfachen Zusammenschluss auf
+Landesebene ermöglichen und jedem schnellen Zugang zu Informationen gewähren. Damit einher geht
+das Ziel, möglichst flache Hierarchien aufzubauen. Ebenfalls wichtig ist es, eine Landesebene zu schaffen,
+die handlungsfähig bleibt und jeder
+Landesarbeitsgruppe erlaubt, effektiv und effizient zu arbeiten.
+\section{Inhaltsverzeichnis}
+\tableofcontents
+\section{Organigramm}
+Das Organigramm ist nur eine Hilfestellung, im Zweifel gilt die Textform.\\
+\tikzstyle{fffnode} = [rectangle, minimum width=2cm, minimum height=0.5cm,text width=3cm, text centered, draw=white, fill=fffdgreen, text=white]
+\tikzstyle{fffnodeabstract} = [rectangle, minimum width=2cm, minimum height=0.5cm,text width=3cm, text centered, draw=white, fill=ffflgreen, text=black]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{arrowb} = [thick,<->,>=stealth]
+\tikzstyle{arrowabstract} = [thick,->,>=stealth, dashed]
+\tikzstyle{arrowabstractb} = [thick,<->,>=stealth, dashed]
+
+\begin{tikzpicture}[node distance=3cm]
+
+      \node (deligruppe) [fffnode] {BW-Deli Info};
+      \node (awareness) [fffnode, right of=deligruppe, xshift=3.5cm] {Awareness- beauftragte};
+      \node (bwlg) [fffnode, right of=awareness, xshift=3.5cm] {FFF BW LG};
+      \node (deli) [fffnode, below of=deligruppe] {Delegierte};
+      \node (og) [fffnode, below of=deli] {Ortsgruppen};
+      \node (prozess) [fffnode, right of=og, xshift=1 cm] {ProzessLG};
+      \node (content) [fffnode, right of=prozess] {ContentLG};
+      \node (oea) [fffnode, right of=content, xshift=3cm] {ÖALG};
+      \node (output) [fffnode, below of=oea] {Öffentlichkeit};
+      \node (input) [fffnode, below of=content] {Kontakte in die Politik / zu Experten};
+      \node (lg) [fffnodeabstract, above of=oea] {LGs};
+
+
+      \draw [arrow] ([xshift=0.5cm]og.north) -- node[anchor=west] {wählt} ([xshift=0.5 cm]deli.south);
+      \draw [arrow] (deli) -- node[anchor=east] {informieren} (og);
+      \draw [arrow] (deli.west)--([shift={(-0.5cm,0cm)}]deli.west)--([shift={(-0.5cm,-3.8cm)}]deli.west) -- node[anchor=north] {reichen Abstimmungen ein} ([shift={(-0.5cm,-0.5cm)}]prozess.south)--([shift={(-0.5cm,0cm)}]prozess.south);
+      \draw [arrow] (awareness) -- node[anchor=south] {beraten} (bwlg);
+      \draw [arrow] (awareness) -- node[anchor=south] {beraten} (deligruppe);
+      \draw [arrow] (deli) -- node[anchor=south, rotate=23] {wählt} (awareness.south);
+      \draw [arrow] ([xshift=0.5 cm]deli.north) -- node[anchor=west] {stimmt ab} ([xshift=0.5 cm]deligruppe.south);
+      \draw [arrow] (deligruppe) -- node[anchor=east] {informiert} (deli);
+      \draw [arrowb] (og) -- node[anchor=south,rotate=23] {Austausch} ([xshift=-0.3 cm]bwlg.south);
+      \draw [arrowb] (content) -- node[anchor=east] {Austausch} (input);
+      \draw [arrow] (oea) -- node[anchor=west] {informieren} (output);
+      \draw [arrowb] (content) --node[anchor=south] {absprechen} (oea);
+      \draw [arrow] (prozess.north) --node[anchor=south,rotate=33] {moderieren} ([xshift=-0.15 cm]bwlg.south);
+      \draw [arrow] (prozess.south)--([shift={(0cm,-1.4cm)}]prozess.south) --node[anchor=north] {erstellen Abstimmungen, informieren} ([shift={(-0.8cm,-7.7cm)}]deligruppe.west)--([shift={(-0.8cm,0cm)}]deligruppe.west)--(deligruppe.west);
+      \draw [arrowabstract] (prozess) -- ([xshift=-0.3 cm]lg.south);
+      \draw [arrowabstract] (content.north) -- ([xshift=-0.15 cm]lg.south);
+      \draw [arrowabstract] (oea) -- (lg);
+      \draw [arrowb] (bwlg) --node[anchor=west]{Austausch} (lg);
+
+      \draw [arrow] (lg.west) -- node[anchor=south, rotate =23] {reichen Abstimmungen ein} (prozess);
+
+
+
+
+
+
+
+
+
+
+
+
+\end{tikzpicture}
+
+
+\section{Aktionskonsens und Selbstverständnis}
+\begin{enumerate}
+      \item Wir halten uns an die Definition und das Selbstverständnis des bundesweiten Strukturpapiers unter \href{https://fffutu.re/strupa}{https://fffutu.re/strupa}
+      \item Falls sich eine Ortsgruppe nicht an das Selbstverständnis hält, kann sie über die Bundesebene
+            ausgeschlossen werden. Daher müssen Ortsgruppen die auf BW-Ebene aktiv sein wollen, auch
+            legitime Ortsgruppen der Bundesebene sein.
+      \item Alle Wahlen und Abstimmung müssen demokratisch und transparent sein.
+      \item Eine Wahl ist in diesem Sinne demokratisch, wenn sie allgemein (hinsichtlich aller
+            Stimmberechtigten), frei und gleich ist.
+\end{enumerate}
+\section{Ortsgruppen (OGs)}
+\begin{enumerate}
+      \item Die OGs sind selbstständig organisiert und von der Landesebene unabhängig.
+      \item Die Landesebene ist abhängig von den Abstimmungen der OGs und kann von diesen ermächtigt und befugt werden, in ihrem Namen zu handeln.
+      \item Die OGs handeln eigenverantwortlich und sind demokratisch.
+      \item Es können von außen (Landesebene) ausschließlich Tipps und Handlungsempfehlungen gegeben
+            werden. Die Landesebene hat allerdings keinerlei Weisungsbefugnis oder Autorität über die
+            Ortsgruppen. Es sei denn, es fanden verbindliche Zusagen statt.
+      \item Jede Ortsgruppe definiert die Mitglieder ihres Orga-Teams selbst. Diese sollten vertrauenswürdig
+            sein und keine vertraulichen Informationen veröffentlichen.
+\end{enumerate}
+\section{Delis}
+\begin{enumerate}
+      \item Jede Ortsgruppe kann bis zu 2 Vertreter*innen als Delegierte in eine \hyperlink{Chatstruktur}{landesweite Gruppe}
+            entsenden, welche zur Kommunikation von Informationen zu den Ortsgruppen dient. Diese
+            Vertreter*innen müssen in allen Abstimmungen die Meinung ihrer Ortsgruppe wiedergeben.
+      \item Dabei sollte wenn möglich auf ein ausgewogenes Geschlechterverhältnis geachtet werden.
+      \item Die Wahl der Vertreter*innen der Ortsgruppen muss demokratisch sein. Das heißt alle Orga-Team
+            Mitglieder müssen theoretisch die Möglichkeit zur Wahl haben. Delegierte müssen die Wahl durch
+            ihre Ortsgruppe bestätigen können, etwa durch ein Protokoll oder eine Nachricht der jeweiligen
+            Ortsgruppe. Ab dem Zeitpunkt, ab dem eine Ortsgruppe die Landesebene über die Abwahl einer
+            Person informiert, ist diese nicht mehr delegiert, und wird aus der \glqq{}BW-Deli Info\grqq-
+            Gruppe entfernt.
+      \item Ortsgruppen können ihre Vertreter*innen frei bestimmen. Es ist möglich, dass gewählte
+            Vertreter*innen auch auf weiteren Ebenen aktiv sind, oder delegiert werden.
+
+\end{enumerate}
+\section{Abstimmungen}
+Delegierte reichen angefragte Entscheidungen an die OG weiter. In der OG wird über die Fragestellung
+entschieden. In der Abstimmung gibt die*der Delegierte die Meinung der OG wieder.
+\subsection{Allgemeines}
+\begin{enumerate}
+      \item Jede OG hat eine Stimme, also verfügt jede OG über gleiche Stimmkraft. Hat eine Ortsgruppe
+            (versehentlich) mehrere Stimmen abgegeben, so wird die zuletzt abgegebene Stimme gewertet.
+      \item  Jede OG und Landesgruppe darf eine Abstimmung initiieren.
+      \item Besteht Klärungsbedarf, kann innerhalb der Abstimmungsfrist eine Telefonkonferenz einberufen
+            werden.
+\end{enumerate}
+\subsection{Ortsgruppen-Abstimmung}
+\begin{enumerate}
+      \item Abstimmungsformulare werden von der Prozess-LG (üblicherweise deren Ansprechpersonen, kann
+            aber innerhalb der LG abgewichen werden) erstellt und durchgeführt.
+            \begin{enumerate}
+                  \item Alle Informationen und Möglichkeiten zu Abstimmungen werden immer in die \glqq{}BW-Deli Info\grqq-gruppe gestellt. Dabei ist die Abstimmungsfrist, der Link zum Formular
+                        sowie mindestens eine Ansprechperson zu nennen.
+                  \item Aus Transparenzgründen werden die Abstimmungen zusätzlich, ohne Link zum
+                        Abstimmungsformular, in die Gruppe \glqq{}FFF Baden-Württemberg LG\grqq und nach Bedarf und
+                        Möglichkeiten in weitere Infogruppen gestellt.
+            \end{enumerate}
+
+      \item Jeder Abstimmung müssen mindestens 10 Tage Zeit eingeräumt werden, es sei denn eine
+            Ortsgruppe oder Landesarbeitsgruppe beantragt eine dringende Abstimmung. Die Frist beginnt
+            sofort mit der Veröffentlichung des Antrags in Deli-Gruppen.
+      \item Ein Antrag darf nach Beginn der Abstimmung nicht mehr verändert werden, allerdings kann er
+            jederzeit zurückgezogen werden.
+      \item Für ein positives Ergebnis der Abstimmung ist eine einfache Mehrheit nötig \(>50\%\). Dabei werden
+            Enthaltungen nicht berücksichtigt.
+      \item Eine Liste mit den Stimmen aller OGs ist nach der Abstimmung durch die Prozess-LG
+            in den Gruppen \glqq{}FFF Baden-Württemberg LG\grqq und \glqq{}BW-Deli Info\grqq zu veröffentlichen.
+\end{enumerate}
+\subsection{dringende Abstimmung}
+\begin{enumerate}
+      \item Eine dringende Abstimmung ist nur anzuwenden, wenn durch einen regulären
+            Abstimmungsprozess der Fridays for Future Bewegung Schaden zugefügt wird oder das Thema der
+            Abstimmung wichtig ist und eine kurzfristige Abstimmung erforderlich macht.
+      \item Der Zeitrahmen, der für eine dringende Abstimmung zur Verfügung steht, wird von
+            der*dem Antragsstellenden festgelegt, beträgt jedoch mindestens 72 Stunden.
+      \item Mit besonderer Begründung können 72 Stunden unterschritten werden. Dabei
+            benötigt die Abstimmung eine einfache 2/3 Mehrheit sowie mindestens 2/3 der
+            beteiligten Ortsgruppen im Durchschnitt der letzten 5 Abstimmungen (Quorum)
+      \item Bei jeder dringenden Abstimmung gibt es die Nachfrage, ob die Abstimmung für
+            dringend erachtet wird. Sollte dieser Punkt nicht mit
+            einer einfachen Mehrheit(> 50 \%) angenommen werden, wird ein reguläres Verfahren
+            durchgeführt. Diese Option kann zusätzlich zur normalen Stimme ausgewählt werden.
+\end{enumerate}
+\subsection{Aufschiebendes Vetorecht}
+\begin{enumerate}
+      \item Ein Veto muss immer begründet sein. Diese Begründung muss konstruktiv und somit konfliktlösend
+            sein und schon bei der Einlegung bekannt gemacht werden.
+            Ein Veto heißt: \glqq{}Ich kann diese Entscheidung nicht mittragen und lege formalen Protest ein\grqq
+      \item Das Veto ist ein aufschiebendes Veto, es kann von jeder OG gestellt werden. Es ist als Ultima Ratio
+            anzusehen.
+            \begin{enumerate}
+                  \item Aufschiebend bedeutet: \glqq{}Wir müssen nochmal über die Entscheidung diskutieren\grqq
+            \end{enumerate}
+      \item Das Veto muss innerhalb der Rückmeldefrist für reguläre Abstimmungen zusammen mit einem
+            konstruktiven Feedback, im Abstimmungsformular eingereicht werden.
+      \item Das konstruktive Feedback (= Begründung des Vetos) muss von einer einfachen 1⁄3 Mehrheit
+            Zustimmung in der darauf folgenden Abstimmung über die Zulässigkeit des Vetos angenommen
+            werden. Für diese Abstimmung sind 72 Stunden Zeit einzuräumen.
+            \begin{enumerate}
+
+                  \item Bei positivem Ausgang muss der dem Veto zugrunde liegende Entwurf überarbeitet
+                        werden. Für die Kompromissfindung sind vier Tage angesetzt.
+                  \item Die Kompromissfindung wird durch Schlichter*innen unterstützt. Die Schlichtung soll von
+                        geeigneten, am Konflikt unbeteiligten Menschen übernommen werden. Wenn sich die
+                        Konfliktparteien nicht gemeinsam auf eine(n) Schlichter*in einigen können, können sie
+                        sich an die Prozess-LG wenden, die dann eine vermittelnde Rolle
+                        einnehmen kann.
+                        \begin{enumerate}
+                              \item Wird ein Kompromiss erzielt und das Veto aufgehoben, wird dieser überarbeitete
+                                    Entwurf zur Abstimmung gestellt. Für die Annahme ist eine einfache Mehrheit
+                                    notwendig.
+                              \item Ist es zu keiner Einigung gekommen, wird der ursprüngliche Entwurf zur
+                                    Abstimmung gestellt. Für die Annahme ist eine einfache 3⁄4 Mehrheit notwendig.
+                              \item Diese Abstimmungen sind über 72 Stunden anzusetzen. Scheitern diese so gilt
+                                    der Entwurf als endgültig abgelehnt.
+                        \end{enumerate}
+            \end{enumerate}
+      \item Bei negativem Ausgang der Abstimmung, unabhängig möglicher Vetos, wird der Entwurf
+            verworfen.
+\end{enumerate}
+\subsection{Welche Mehrheiten und Besonderheiten haben wir?}
+\begin{enumerate}
+      \item Für Änderungen an der Struktur ist eine ⅔-Mehrheit notwendig.
+      \item Bei Personenwahlen kommen besondere Regelungen zum tragen, diese stimmen mit denen des
+            vergleichbaren Gremiums der Bundesebene überein.
+            \begin{enumerate}
+                  \item Abweichend davon ist immer eine Zustimmung von mindestens 50 \% notwendig.
+                  \item Auch soll in einer zukünftigen Version bei ausreichender Menschenanzahl angestrebt
+                        werden, dass sich die Ämter in der der LG-Ansprechpartner*innen und der
+                        Awarenessbeauftragten gegenseitig Ausschließen, heißt das man nur in einem der
+                        Positionen gleichzeitig sein kann.
+            \end{enumerate}
+\end{enumerate}
+\subsection{Abstimmungsformulare}
+\begin{enumerate}
+      \item Diese Informationen müssen im Abstimmungsformular festgeschrieben stehen:
+            \begin{enumerate}
+                  \item Ende der Abstimmungsfrist
+                  \item Antrag in voller Länge oder Link zu einem (read-only)Dokument mit dem Antragstext.
+            \end{enumerate}
+      \item Diese Informationen müssen abgefragt werden:
+            \begin{enumerate}
+                  \item Name
+                  \item Ortsgruppe
+                  \item Kontaktdaten(z.B. Handynummer oder Mailadresse)
+                  \item \glqq{}Bist du ein Landesdelegierter aus einer OG in BW?\grqq( Ja / Nein )
+                  \item Abstimmungsverhalten (Ja / Nein / Enthaltung)
+                  \item Bei dringenden Abstimmungen: \glqq{}Findest du die Abstimmung dringend?\grqq
+                        (Ja / Nein / Enthaltung)
+                  \item \glqq{}Willst du ein Veto einlegen?\grqq (Ja / Nein )
+                  \item Falls die Antwort ja sei, konstruktive Begründung des Vetos
+                  \item Ggf. Feedback zum Antrag
+            \end{enumerate}
+\end{enumerate}
+\section{Landesarbeitsgruppen(LGs)}
+\begin{enumerate}
+      \item
+            Landesarbeitsgruppen sind Arbeitsgruppen auf Landesebene, welche sich mit einem bestimmten Thema
+            befassen. Hierbei gibt es drei stetige Landesarbeitsgruppen (Handlungsspielraum unten), darüber hinaus
+            können weitere per Ortsgruppenabstimmung temporär legitimiert werden.
+      \item
+            Diese müssen einen
+            Handlungsspielraum definieren und bei Zweifel ihre Arbeit mit den bestehenden LGs absprechen.
+      \item
+            In LGs
+            kann jeder mitarbeiten, zur Auflösung von weiteren LGs ist eine 2/3 Mehrheit notwendig.
+      \item
+            LGs stellen
+            gegenüber der Landesebene Ansprechpersonen zur Verfügung.
+      \item
+            Landesarbeitsgruppen sind zudem angehalten zusätzlich zu dem Handlungsspielraum, intern ihre
+            Arbeitsweise zu Regeln und Festzuhalten. Hiervon können LGs selbstständig begründet abweichen,
+            allerdings muss dies intern über mindestens einen Tag abgestimmt oder in einer TK beschlossen werden.
+            Ebenso können Änderungen beschlossen werden.
+      \item
+            LGs können nach eigenem ermessen Untergruppen gründen.
+\end{enumerate}
+
+\subsection{Prozess-LG}
+\begin{enumerate}
+      \item Die Prozess-LG kümmert sich um das Erstellen und Durchführen der Abstimmungen auf
+            Landesebene, die Weiterentwicklung der Struktur, das Pflegen der Kontaktdaten sowie die
+            Transparenz der Landesebene gegenüber den Ortsgruppen.
+      \item Da es sich bei den Delegierten-Kontakten und Adminrechte um sensible Informationen handelt,
+            kümmern sich hierum die LG Ansprechpersonen.
+      \item Es sollen regelmäßig, ca. monatlich Infonachrichten über die Arbeit der Landesebene an die
+            Ortsgruppen gesendet werden.
+      \item Personen, welche am Inhalt einer Abstimmung beteiligt sind, dürfen nicht bei deren Durchführung
+            und Auswertung beteiligt sein. Des Weiteren bekommt neben der durchführenden Person eine
+            weitere Person zur Kontrolle Zugang zum Abstimmungsformular
+\end{enumerate}
+\subsection{Content-LG}
+\begin{enumerate}
+      \item Die Content-LG erstellt Forderungsdokumente, Führt Gespräche mit Menschen / Organisationen
+            an die sich die Forderungen Richten sowie plant Kampagnen auf Landesebene.
+      \item Forderungsdokumente müssen von den Ortsgruppen abgestimmt werden. Sie sollen anschließend
+            auch weiterverfolgt und in die Politiker*innengespräche einfließen.
+      \item Eine Kampagene soll über einen Zeitraum einen Fokus auf ein Thema lenken.
+      \item Die Öffentlichkeitsarbeit hierzu übernimmt die Öffentlichkeitsarbeits-LG.
+      \item Die Content-LG kann die Unterstützung von Externen Forderungen auf BW-Ebene
+            beschließen(Logoverwendung). Im Zweifel ist eine Ortsgruppen-Abstimmung durchzuführen.
+\end{enumerate}
+\subsection{Öffentlichkeitsarbeits-LG}
+\begin{enumerate}
+      \item Die Öffentlichkeitsarbeit-LG kümmert sich auf Landesebene um die Öffentlichkeitsarbeit. Darunter
+            Fallen insbesondere: Öffentlichkeitsarbeit auf Social Media, Öffentlichkeitsarbeit auf der
+            Webseite, sowie Pressearbeit und das bearbeiten / verteilen eingehender E-Mails.
+      \item Die Öffentlichkeitsarbeit-LG ist legitimiert, selbst Inhalte zu Veröffentlichen, welche von der
+            Bewegung stammen. Sie ist nicht Legitimiert eigene Forderungen aufzustellen, hierfür ist die
+            Content-LG zuständig, welche die Öffentlichkeitsarbeit-LG weiterverbreitet.
+      \item SocialMedia umfasst das erstellen von Inhalten für Dienste wie Facebook, Twitter, Instagram,
+            Youtube, etc.
+      \item Pressenarbeit umfasst die Kommunikation sowie das Abgeben von Statements an Medien,
+            beispielsweise durch Beantwortung von Anfragen der Presse, versenden von Pressemitteilungen
+            sowie organisation von Pressekonferenzen.
+      \item Ziel hierbei ist es, die Bewegung in der Öffentlichkeit zu repräsentieren und die Forderungen der
+            Bewegung zu verbreiten, sowie zu Veranstaltungen aufzurufen.
+      \item Die Öffentlichkeitsarbeits-LG ist legitmiert, über die Logoverwendung auch für Externe
+            Kooperationen zu Netscheiden. Dies erfolgt mit einer 2/3 Mehrheit. Falls es um Forderungen
+            geht entscheidet die Content-LG. Bei Zweifel ist eine Ortsgruppenentscheidung durchzuführen.
+      \item Die Öffentlichkeitsarbeits-LG soll die Ortsgruppen bei deren Öffentlichkeitsarbeit unterstützen.
+\end{enumerate}
+\subsection{Mailadresse}
+\begin{enumerate}
+      \item Auf Landesebene gibt es eine Mailadresse, sie wird von den LGs gemeinsam genutzt.
+      \item Jede LG bestimmt bis zu 8 Personen für den Mailzugriff, diese können Mails versenden und deren
+            Antworten bearbeiten.
+      \item Für die Zuteilung eingehender Mails ist die Öffentlichkeitsarbeits-LG zuständig.
+      \item Diese haben zur Absprache eine eigene Gruppe. Kontaktdaten aus Mails dürfen nicht ohne
+            Zustimmung weitergegeben werden.
+\end{enumerate}
+\section{Chatstruktur}
+\subsection{BW-Deli Info}
+\begin{enumerate}
+      \item Mitglieder dieser Gruppe sind die Delis, die Ansprechpersonen für die LGs und die Awarenessbeauftragten.
+      \item Hier werden Abstimmungen mit Abstimmungslink, deren Ergebnisse, mögliche Vetos sowie
+            weitere für die Ortsgruppen relevante Informationen geteilt.
+      \item Nur die Ansprechpersonen der Prozess-LG haben Schreibrechte.
+\end{enumerate}
+\subsection{FFF Baden-Württemberg LG}
+\begin{enumerate}
+      \item Sie steht jedem Orga-Team Mitglied aus einer Ortsgruppe aus Baden-Württemberg und jedem
+            Mitglied einer Landesarbeitsgruppe von Baden-Württemberg offen.
+      \item Hier werden Abstimmungen ohne Abstimmungslink, deren Ergebnisse, mögliche Vetos sowie
+            weitere relevante Infos geteilt.
+      \item Jeder hat Schreibrechte.
+\end{enumerate}
+\section{Antidiskriminierung und Awareness}
+In der Zusammenarbeit wird auf gegenseitige Rücksichtnahme und einen wertschätzenden konstruktiven
+Umgang geachtet.
+\subsection{Awareness-Beauftragte}
+\begin{enumerate}
+      \item Die Delegierten wählen 2 Awareness-Beauftragte. Es ist nicht gestattet, dass mehr als die Hälfte
+            der Awareness-Beauftragten desselben Geschlechts sind.
+            \begin{enumerate}
+                  \item Die Awareness-Beauftragten benötigen eine 2/3 Mehrheit um gewählt zu werden, und
+                        können mit mindestens 1/3 der Stimmen abgewählt werden.
+            \end{enumerate}
+      \item Die Awareness-Beauftragten sind Ansprechpersonen, sollten Personen sich unwohl fühlen oder
+            diskriminiert werden.
+      \item Awareness-Beauftragte können, müssen aber nicht von einer Ortsgruppe delegiert sein.
+      \item Awareness-Beauftragte können jederzeit die Delegierten oder die Landesarbeitsgruppen über
+            Antidiskriminierungsthemen informieren, und Stellung beziehen, sollten Entscheidungen getroffen
+            werden, die diskriminierend oder problematisch sind.
+\end{enumerate}
+\subsection{Ausschlussgremium}
+\begin{enumerate}
+      \item Aus der Landesebene können durch das bundesweite Ausschlussgremium bei Fällen von
+            Diskriminierung und / oder übergriffigem Verhalten Maßnahmen nach deren Handlungsspielraum
+            ergriffen werden.
+\end{enumerate}
+
+\end{document}
